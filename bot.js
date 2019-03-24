@@ -21,7 +21,7 @@ bot.hears(/(?:\/mi)((?:_|)(\w+)|)/, async (ctx) => {
     url: lock,
     filename: 'image.png',
   }, {
-    caption: `<a href="${lock}">full</a>`,
+    caption: `<a href="${lock}">original</a>`,
     parse_mode: 'HTML',
     reply_to_message_id: ctx.message.message_id,
   })
