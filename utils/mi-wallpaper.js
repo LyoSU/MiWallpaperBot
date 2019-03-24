@@ -83,12 +83,12 @@ async function lock(category, id) {
   let channelId = ''
 
   if (categorys[category]) channelId = categorys[category].id
-  const api = await axios.get(`${apiUri}lock/lock_view?_res=hd1000&_eimi=tg_ly_${id}&channel_id=${channelId}&page_size=1`)
+  const api = await axios.get(`${apiUri}lock/lock_view?_res=hd100000&_eimi=tg_ly_${id}&channel_id=${channelId}&page_size=1`)
 
   if (api.data.items.length > 0) {
     const image = api.data.items[0].images[0].cl_url
 
-    return `${image.url_root}png/w1000/${image.locator}`
+    return `${image.url_root}png/w100000/${image.locator}`
   }
 
   return null
