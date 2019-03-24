@@ -1,0 +1,29 @@
+{
+  "name": "miwallpaperbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyoSU/MiWallpaperBot.git"
+  },
+  "author": "LyoSU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LyoSU/MiWallpaperBot/issues"
+  },
+  "homepage": "https://github.com/LyoSU/MiWallpaperBot#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "telegraf": "^3.27.1"
+  },
+  "devDependencies": {
+    "@atomix/eslint-config": "^6.4.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3"
+  }
+}
