@@ -43,4 +43,9 @@ bot.command('quit', (ctx) => {
 })
 
 
+bot.catch((error) => {
+  console.log('Ooops', error)
+})
+
+
 bot.launch()
