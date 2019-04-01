@@ -24,6 +24,8 @@ bot.hears(/(?:\/mi)((?:_|)(\w+)|)/, async (ctx) => {
     caption: `<a href="${lock}">original</a>`,
     parse_mode: 'HTML',
     reply_to_message_id: ctx.message.message_id,
+  }).catch((error) => {
+    console.log('Ooops', error)
   })
 })
 
