@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/LyoSU/MiWallpaperBot#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "dotenv": "^7.0.0",
     "telegraf": "^3.27.1"
   },
